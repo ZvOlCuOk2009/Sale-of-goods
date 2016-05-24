@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4BAE111CF35A8B000BE971 /* TSImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE0D1CF35A8B000BE971 /* TSImages+CoreDataProperties.m */; };
+		FD4BAE121CF35A8B000BE971 /* TSImages.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE0F1CF35A8B000BE971 /* TSImages.m */; };
+		FD4BAE201CF362B1000BE971 /* TSImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE1E1CF362B1000BE971 /* TSImages+CoreDataProperties.m */; };
+		FD4BAE211CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE1F1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m */; };
 		FD811C481CF07369000C1383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C471CF07369000C1383 /* main.m */; };
 		FD811C4B1CF07369000C1383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C4A1CF07369000C1383 /* AppDelegate.m */; };
-		FD811C4E1CF07369000C1383 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C4D1CF07369000C1383 /* ViewController.m */; };
 		FD811C511CF07369000C1383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD811C4F1CF07369000C1383 /* Main.storyboard */; };
 		FD811C541CF07369000C1383 /* Sale_of_goods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD811C521CF07369000C1383 /* Sale_of_goods.xcdatamodeld */; };
 		FD811C561CF07369000C1383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD811C551CF07369000C1383 /* Assets.xcassets */; };
 		FD811C591CF07369000C1383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD811C571CF07369000C1383 /* LaunchScreen.storyboard */; };
 		FD811C641CF0736A000C1383 /* Sale_of_goodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C631CF0736A000C1383 /* Sale_of_goodsTests.m */; };
 		FD811C6F1CF0736A000C1383 /* Sale_of_goodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C6E1CF0736A000C1383 /* Sale_of_goodsUITests.m */; };
+		FD811C7E1CF074F8000C1383 /* TSGoodsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C7D1CF074F8000C1383 /* TSGoodsTableViewController.m */; };
+		FD811C891CF09810000C1383 /* TSProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C871CF09810000C1383 /* TSProduct.m */; };
+		FD811C8D1CF09860000C1383 /* TSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C8C1CF09860000C1383 /* TSDataManager.m */; };
+		FD811C911CF0AAA7000C1383 /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C901CF0AAA7000C1383 /* TSTableViewCell.m */; };
+		FD811C941CF0E4A9000C1383 /* TSDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C931CF0E4A9000C1383 /* TSDetailsTableViewController.m */; };
+		FD811C9A1CF11DFB000C1383 /* TSDescriptionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C991CF11DFB000C1383 /* TSDescriptionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD4BAE0D1CF35A8B000BE971 /* TSImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSImages+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FD4BAE0E1CF35A8B000BE971 /* TSImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSImages.h; sourceTree = "<group>"; };
+		FD4BAE0F1CF35A8B000BE971 /* TSImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSImages.m; sourceTree = "<group>"; };
+		FD4BAE1C1CF362B1000BE971 /* TSImages+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSImages+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FD4BAE1D1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-077.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSProduct+CoreDataProperties 19-08-34-077.h"; sourceTree = "<group>"; };
+		FD4BAE1E1CF362B1000BE971 /* TSImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSImages+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FD4BAE1F1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSProduct+CoreDataProperties 19-08-34-198.m"; sourceTree = "<group>"; };
+		FD4BAE221CF36397000BE971 /* TSProduct+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSProduct+CoreDataProperties.h"; sourceTree = "<group>"; };
 		FD811C431CF07368000C1383 /* Sale of goods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sale of goods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD811C471CF07369000C1383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD811C491CF07369000C1383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD811C4A1CF07369000C1383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD811C4C1CF07369000C1383 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD811C4D1CF07369000C1383 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD811C501CF07369000C1383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD811C531CF07369000C1383 /* Sale_of_goods.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sale_of_goods.xcdatamodel; sourceTree = "<group>"; };
 		FD811C551CF07369000C1383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +68,17 @@
 		FD811C6A1CF0736A000C1383 /* Sale of goodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sale of goodsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD811C6E1CF0736A000C1383 /* Sale_of_goodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sale_of_goodsUITests.m; sourceTree = "<group>"; };
 		FD811C701CF0736A000C1383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD811C7C1CF074F8000C1383 /* TSGoodsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSGoodsTableViewController.h; path = ../TSGoodsTableViewController.h; sourceTree = "<group>"; };
+		FD811C7D1CF074F8000C1383 /* TSGoodsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSGoodsTableViewController.m; path = ../TSGoodsTableViewController.m; sourceTree = "<group>"; };
+		FD811C871CF09810000C1383 /* TSProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSProduct.m; sourceTree = "<group>"; };
+		FD811C8B1CF09860000C1383 /* TSDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDataManager.h; sourceTree = "<group>"; };
+		FD811C8C1CF09860000C1383 /* TSDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDataManager.m; sourceTree = "<group>"; };
+		FD811C8F1CF0AAA7000C1383 /* TSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewCell.h; sourceTree = "<group>"; };
+		FD811C901CF0AAA7000C1383 /* TSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewCell.m; sourceTree = "<group>"; };
+		FD811C921CF0E4A9000C1383 /* TSDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDetailsTableViewController.h; sourceTree = "<group>"; };
+		FD811C931CF0E4A9000C1383 /* TSDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDetailsTableViewController.m; sourceTree = "<group>"; };
+		FD811C981CF11DFB000C1383 /* TSDescriptionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDescriptionTableViewController.h; sourceTree = "<group>"; };
+		FD811C991CF11DFB000C1383 /* TSDescriptionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDescriptionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +129,10 @@
 		FD811C451CF07369000C1383 /* Sale of goods */ = {
 			isa = PBXGroup;
 			children = (
-				FD811C491CF07369000C1383 /* AppDelegate.h */,
-				FD811C4A1CF07369000C1383 /* AppDelegate.m */,
-				FD811C4C1CF07369000C1383 /* ViewController.h */,
-				FD811C4D1CF07369000C1383 /* ViewController.m */,
+				FD811C7F1CF0774E000C1383 /* App */,
+				FD811C8A1CF09821000C1383 /* Core Data */,
+				FD811C8E1CF09A73000C1383 /* Cell */,
+				FD811C801CF07761000C1383 /* Controllers */,
 				FD811C4F1CF07369000C1383 /* Main.storyboard */,
 				FD811C551CF07369000C1383 /* Assets.xcassets */,
 				FD811C571CF07369000C1383 /* LaunchScreen.storyboard */,
@@ -141,6 +167,57 @@
 				FD811C701CF0736A000C1383 /* Info.plist */,
 			);
 			path = "Sale of goodsUITests";
+			sourceTree = "<group>";
+		};
+		FD811C7F1CF0774E000C1383 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD811C491CF07369000C1383 /* AppDelegate.h */,
+				FD811C4A1CF07369000C1383 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		FD811C801CF07761000C1383 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD811C7C1CF074F8000C1383 /* TSGoodsTableViewController.h */,
+				FD811C7D1CF074F8000C1383 /* TSGoodsTableViewController.m */,
+				FD811C921CF0E4A9000C1383 /* TSDetailsTableViewController.h */,
+				FD811C931CF0E4A9000C1383 /* TSDetailsTableViewController.m */,
+				FD811C981CF11DFB000C1383 /* TSDescriptionTableViewController.h */,
+				FD811C991CF11DFB000C1383 /* TSDescriptionTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FD811C8A1CF09821000C1383 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FD4BAE221CF36397000BE971 /* TSProduct+CoreDataProperties.h */,
+				FD811C871CF09810000C1383 /* TSProduct.m */,
+				FD4BAE1D1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-077.h */,
+				FD4BAE1F1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m */,
+				FD4BAE1C1CF362B1000BE971 /* TSImages+CoreDataProperties.h */,
+				FD4BAE0F1CF35A8B000BE971 /* TSImages.m */,
+				FD4BAE0E1CF35A8B000BE971 /* TSImages.h */,
+				FD4BAE1E1CF362B1000BE971 /* TSImages+CoreDataProperties.m */,
+				FD4BAE1C1CF362B1000BE971 /* TSImages+CoreDataProperties.h */,
+				FD4BAE0D1CF35A8B000BE971 /* TSImages+CoreDataProperties.m */,
+				FD811C8B1CF09860000C1383 /* TSDataManager.h */,
+				FD811C8C1CF09860000C1383 /* TSDataManager.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		FD811C8E1CF09A73000C1383 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FD811C8F1CF0AAA7000C1383 /* TSTableViewCell.h */,
+				FD811C901CF0AAA7000C1383 /* TSTableViewCell.m */,
+			);
+			name = Cell;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +282,7 @@
 		FD811C3B1CF07367000C1383 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Tsvigun Alexandr";
 				TargetAttributes = {
@@ -276,9 +354,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD811C4E1CF07369000C1383 /* ViewController.m in Sources */,
+				FD811C891CF09810000C1383 /* TSProduct.m in Sources */,
 				FD811C4B1CF07369000C1383 /* AppDelegate.m in Sources */,
+				FD811C7E1CF074F8000C1383 /* TSGoodsTableViewController.m in Sources */,
+				FD4BAE111CF35A8B000BE971 /* TSImages+CoreDataProperties.m in Sources */,
+				FD811C941CF0E4A9000C1383 /* TSDetailsTableViewController.m in Sources */,
+				FD811C9A1CF11DFB000C1383 /* TSDescriptionTableViewController.m in Sources */,
+				FD4BAE121CF35A8B000BE971 /* TSImages.m in Sources */,
+				FD811C911CF0AAA7000C1383 /* TSTableViewCell.m in Sources */,
+				FD4BAE211CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m in Sources */,
 				FD811C541CF07369000C1383 /* Sale_of_goods.xcdatamodeld in Sources */,
+				FD811C8D1CF09860000C1383 /* TSDataManager.m in Sources */,
+				FD4BAE201CF362B1000BE971 /* TSImages+CoreDataProperties.m in Sources */,
 				FD811C481CF07369000C1383 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +592,7 @@
 				FD811C751CF0736A000C1383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD811C761CF0736A000C1383 /* Build configuration list for PBXNativeTarget "Sale of goodsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +601,7 @@
 				FD811C781CF0736A000C1383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD811C791CF0736A000C1383 /* Build configuration list for PBXNativeTarget "Sale of goodsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +610,7 @@
 				FD811C7B1CF0736A000C1383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

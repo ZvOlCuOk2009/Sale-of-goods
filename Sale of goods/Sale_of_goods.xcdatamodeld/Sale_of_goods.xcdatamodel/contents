@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="TSImages" representedClassName="TSImages" parentEntity="TSObject" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TSProduct" inverseName="images" inverseEntity="TSProduct" syncable="YES"/>
+    </entity>
+    <entity name="TSObject" isAbstract="YES" syncable="YES"/>
+    <entity name="TSProduct" representedClassName="TSProduct" parentEntity="TSObject" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specification" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TSImages" inverseName="owner" inverseEntity="TSImages" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TSImages" positionX="90" positionY="53" width="128" height="73"/>
+        <element name="TSProduct" positionX="-110" positionY="23" width="128" height="103"/>
+        <element name="TSObject" positionX="-9" positionY="-117" width="128" height="43"/>
+    </elements>
 </model>
