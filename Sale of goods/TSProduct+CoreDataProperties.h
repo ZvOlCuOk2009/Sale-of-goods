@@ -2,7 +2,7 @@
 //  TSProduct+CoreDataProperties.h
 //  Sale of goods
 //
-//  Created by Mac on 23.05.16.
+//  Created by Mac on 24.05.16.
 //  Copyright © 2016 Tsvigun Alexandr. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -13,21 +13,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class TSImages;
+
 @interface TSProduct (CoreDataProperties)
 
 @property (nullable, nonatomic, retain) NSString *name;
 @property (nullable, nonatomic, retain) NSString *price;
 @property (nullable, nonatomic, retain) NSString *specification;
-@property (nullable, nonatomic, retain) NSSet<NSManagedObject *> *images;
+@property (nullable, nonatomic, retain) NSSet<TSImages *> *images;
 
 @end
 
 @interface TSProduct (CoreDataGeneratedAccessors)
 
-- (void)addImagesObject:(NSManagedObject *)value;
-- (void)removeImagesObject:(NSManagedObject *)value;
-- (void)addImages:(NSSet<NSManagedObject *> *)values;
-- (void)removeImages:(NSSet<NSManagedObject *> *)values;
+- (void)addImagesObject:(TSImages *)value;
+- (void)removeImagesObject:(TSImages *)value;
+- (void)addImages:(NSSet<TSImages *> *)values;
+- (void)removeImages:(NSSet<TSImages *> *)values;
 
 @end
 

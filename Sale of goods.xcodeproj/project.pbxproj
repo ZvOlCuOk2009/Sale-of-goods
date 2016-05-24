@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD4BAE111CF35A8B000BE971 /* TSImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE0D1CF35A8B000BE971 /* TSImages+CoreDataProperties.m */; };
-		FD4BAE121CF35A8B000BE971 /* TSImages.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE0F1CF35A8B000BE971 /* TSImages.m */; };
-		FD4BAE201CF362B1000BE971 /* TSImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE1E1CF362B1000BE971 /* TSImages+CoreDataProperties.m */; };
-		FD4BAE211CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4BAE1F1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m */; };
 		FD811C481CF07369000C1383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C471CF07369000C1383 /* main.m */; };
 		FD811C4B1CF07369000C1383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C4A1CF07369000C1383 /* AppDelegate.m */; };
 		FD811C511CF07369000C1383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD811C4F1CF07369000C1383 /* Main.storyboard */; };
@@ -20,11 +16,15 @@
 		FD811C641CF0736A000C1383 /* Sale_of_goodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C631CF0736A000C1383 /* Sale_of_goodsTests.m */; };
 		FD811C6F1CF0736A000C1383 /* Sale_of_goodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C6E1CF0736A000C1383 /* Sale_of_goodsUITests.m */; };
 		FD811C7E1CF074F8000C1383 /* TSGoodsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C7D1CF074F8000C1383 /* TSGoodsTableViewController.m */; };
-		FD811C891CF09810000C1383 /* TSProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C871CF09810000C1383 /* TSProduct.m */; };
 		FD811C8D1CF09860000C1383 /* TSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C8C1CF09860000C1383 /* TSDataManager.m */; };
 		FD811C911CF0AAA7000C1383 /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C901CF0AAA7000C1383 /* TSTableViewCell.m */; };
 		FD811C941CF0E4A9000C1383 /* TSDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C931CF0E4A9000C1383 /* TSDetailsTableViewController.m */; };
 		FD811C9A1CF11DFB000C1383 /* TSDescriptionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD811C991CF11DFB000C1383 /* TSDescriptionTableViewController.m */; };
+		FDB0EBC51CF47B1400AA5C72 /* TSImages.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0EBBE1CF47B1400AA5C72 /* TSImages.m */; };
+		FDB0EBC61CF47B1400AA5C72 /* TSImages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0EBC01CF47B1400AA5C72 /* TSImages+CoreDataProperties.m */; };
+		FDB0EBC81CF47B1400AA5C72 /* TSProduct+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0EBC41CF47B1400AA5C72 /* TSProduct+CoreDataProperties.m */; };
+		FDB0EBCA1CF498E800AA5C72 /* TSImages+CoreDataProperties 14.44.41.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0EBC91CF498E800AA5C72 /* TSImages+CoreDataProperties 14.44.41.m */; };
+		FDB0EBCE1CF49B1000AA5C72 /* TSProduct .m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0EBCD1CF49B1000AA5C72 /* TSProduct .m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD4BAE0D1CF35A8B000BE971 /* TSImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSImages+CoreDataProperties.m"; sourceTree = "<group>"; };
-		FD4BAE0E1CF35A8B000BE971 /* TSImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSImages.h; sourceTree = "<group>"; };
-		FD4BAE0F1CF35A8B000BE971 /* TSImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSImages.m; sourceTree = "<group>"; };
-		FD4BAE1C1CF362B1000BE971 /* TSImages+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSImages+CoreDataProperties.h"; sourceTree = "<group>"; };
-		FD4BAE1D1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-077.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSProduct+CoreDataProperties 19-08-34-077.h"; sourceTree = "<group>"; };
-		FD4BAE1E1CF362B1000BE971 /* TSImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSImages+CoreDataProperties.m"; sourceTree = "<group>"; };
-		FD4BAE1F1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSProduct+CoreDataProperties 19-08-34-198.m"; sourceTree = "<group>"; };
-		FD4BAE221CF36397000BE971 /* TSProduct+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSProduct+CoreDataProperties.h"; sourceTree = "<group>"; };
 		FD811C431CF07368000C1383 /* Sale of goods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sale of goods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD811C471CF07369000C1383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD811C491CF07369000C1383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,7 +62,6 @@
 		FD811C701CF0736A000C1383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD811C7C1CF074F8000C1383 /* TSGoodsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSGoodsTableViewController.h; path = ../TSGoodsTableViewController.h; sourceTree = "<group>"; };
 		FD811C7D1CF074F8000C1383 /* TSGoodsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSGoodsTableViewController.m; path = ../TSGoodsTableViewController.m; sourceTree = "<group>"; };
-		FD811C871CF09810000C1383 /* TSProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSProduct.m; sourceTree = "<group>"; };
 		FD811C8B1CF09860000C1383 /* TSDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDataManager.h; sourceTree = "<group>"; };
 		FD811C8C1CF09860000C1383 /* TSDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDataManager.m; sourceTree = "<group>"; };
 		FD811C8F1CF0AAA7000C1383 /* TSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewCell.h; sourceTree = "<group>"; };
@@ -79,6 +70,15 @@
 		FD811C931CF0E4A9000C1383 /* TSDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDetailsTableViewController.m; sourceTree = "<group>"; };
 		FD811C981CF11DFB000C1383 /* TSDescriptionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDescriptionTableViewController.h; sourceTree = "<group>"; };
 		FD811C991CF11DFB000C1383 /* TSDescriptionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDescriptionTableViewController.m; sourceTree = "<group>"; };
+		FDB0EBBD1CF47B1400AA5C72 /* TSImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSImages.h; sourceTree = "<group>"; };
+		FDB0EBBE1CF47B1400AA5C72 /* TSImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSImages.m; sourceTree = "<group>"; };
+		FDB0EBBF1CF47B1400AA5C72 /* TSImages+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSImages+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FDB0EBC01CF47B1400AA5C72 /* TSImages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSImages+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FDB0EBC21CF47B1400AA5C72 /* TSProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSProduct.h; sourceTree = "<group>"; };
+		FDB0EBC31CF47B1400AA5C72 /* TSProduct+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSProduct+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FDB0EBC41CF47B1400AA5C72 /* TSProduct+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSProduct+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FDB0EBC91CF498E800AA5C72 /* TSImages+CoreDataProperties 14.44.41.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSImages+CoreDataProperties 14.44.41.m"; sourceTree = "<group>"; };
+		FDB0EBCD1CF49B1000AA5C72 /* TSProduct .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSProduct .m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,16 +194,15 @@
 		FD811C8A1CF09821000C1383 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				FD4BAE221CF36397000BE971 /* TSProduct+CoreDataProperties.h */,
-				FD811C871CF09810000C1383 /* TSProduct.m */,
-				FD4BAE1D1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-077.h */,
-				FD4BAE1F1CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m */,
-				FD4BAE1C1CF362B1000BE971 /* TSImages+CoreDataProperties.h */,
-				FD4BAE0F1CF35A8B000BE971 /* TSImages.m */,
-				FD4BAE0E1CF35A8B000BE971 /* TSImages.h */,
-				FD4BAE1E1CF362B1000BE971 /* TSImages+CoreDataProperties.m */,
-				FD4BAE1C1CF362B1000BE971 /* TSImages+CoreDataProperties.h */,
-				FD4BAE0D1CF35A8B000BE971 /* TSImages+CoreDataProperties.m */,
+				FDB0EBC21CF47B1400AA5C72 /* TSProduct.h */,
+				FDB0EBCD1CF49B1000AA5C72 /* TSProduct .m */,
+				FDB0EBC31CF47B1400AA5C72 /* TSProduct+CoreDataProperties.h */,
+				FDB0EBC41CF47B1400AA5C72 /* TSProduct+CoreDataProperties.m */,
+				FDB0EBBD1CF47B1400AA5C72 /* TSImages.h */,
+				FDB0EBBE1CF47B1400AA5C72 /* TSImages.m */,
+				FDB0EBBF1CF47B1400AA5C72 /* TSImages+CoreDataProperties.h */,
+				FDB0EBC91CF498E800AA5C72 /* TSImages+CoreDataProperties 14.44.41.m */,
+				FDB0EBC01CF47B1400AA5C72 /* TSImages+CoreDataProperties.m */,
 				FD811C8B1CF09860000C1383 /* TSDataManager.h */,
 				FD811C8C1CF09860000C1383 /* TSDataManager.m */,
 			);
@@ -354,18 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD811C891CF09810000C1383 /* TSProduct.m in Sources */,
+				FDB0EBCE1CF49B1000AA5C72 /* TSProduct .m in Sources */,
+				FDB0EBC81CF47B1400AA5C72 /* TSProduct+CoreDataProperties.m in Sources */,
 				FD811C4B1CF07369000C1383 /* AppDelegate.m in Sources */,
 				FD811C7E1CF074F8000C1383 /* TSGoodsTableViewController.m in Sources */,
-				FD4BAE111CF35A8B000BE971 /* TSImages+CoreDataProperties.m in Sources */,
 				FD811C941CF0E4A9000C1383 /* TSDetailsTableViewController.m in Sources */,
 				FD811C9A1CF11DFB000C1383 /* TSDescriptionTableViewController.m in Sources */,
-				FD4BAE121CF35A8B000BE971 /* TSImages.m in Sources */,
+				FDB0EBCA1CF498E800AA5C72 /* TSImages+CoreDataProperties 14.44.41.m in Sources */,
 				FD811C911CF0AAA7000C1383 /* TSTableViewCell.m in Sources */,
-				FD4BAE211CF362B1000BE971 /* TSProduct+CoreDataProperties 19-08-34-198.m in Sources */,
 				FD811C541CF07369000C1383 /* Sale_of_goods.xcdatamodeld in Sources */,
 				FD811C8D1CF09860000C1383 /* TSDataManager.m in Sources */,
-				FD4BAE201CF362B1000BE971 /* TSImages+CoreDataProperties.m in Sources */,
+				FDB0EBC61CF47B1400AA5C72 /* TSImages+CoreDataProperties.m in Sources */,
+				FDB0EBC51CF47B1400AA5C72 /* TSImages.m in Sources */,
 				FD811C481CF07369000C1383 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

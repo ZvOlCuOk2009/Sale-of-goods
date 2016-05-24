@@ -4,7 +4,7 @@
 //
 //  Created by Mac on 21.05.16.
 //  Copyright © 2016 Tsvigun Alexandr. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>

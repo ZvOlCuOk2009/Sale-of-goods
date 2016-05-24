@@ -112,7 +112,7 @@
     product.price = self.priceTextField.text;
     product.specification = self.descriptionTextField.text;
     NSData *dataImage = UIImagePNGRepresentation(self.imageView);
-    product.image = dataImage;
+  //  product.image = dataImage;
     [self.managedObjectContext save:nil];
     [self.navigationController popToRootViewControllerAnimated:YES];
     

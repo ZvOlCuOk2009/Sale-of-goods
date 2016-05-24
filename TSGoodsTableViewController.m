@@ -11,6 +11,7 @@
 #import "TSTableViewCell.h"
 #import "TSDataManager.h"
 #import "TSProduct+CoreDataProperties.h"
+#import "TSImages+CoreDataProperties.h"
 #import "TSDescriptionTableViewController.h"
 #import <CoreData/CoreData.h>
 
@@ -70,7 +71,9 @@
     TSProduct *product = [self.fetchedResultsController objectAtIndexPath:indexPath];
     cell.nameLabel.text = product.name;
     cell.priceLabel.text = [NSString stringWithFormat:@"$%@", product.price];
-    UIImage *image = [UIImage imageWithData:product.image];
+    NSSet *images = product.images;
+    UIImage *image = [images anyObject];
+    //UIImage *image = [UIImage imageWithData:product.images];
     cell.imageProduct.image = image;
 }
 
@@ -88,10 +91,11 @@
     controller.name = self.product.name;
     controller.price = self.product.price;
     controller.specification = self.product.specification;
-    controller.image = self.product.image
-    ;
+    //controller.image =
+    //controller.image = self.product.image;
     [controller receiveCell:self.product];
     [self.navigationController pushViewController:controller animated:YES];
+    NSLog(@"Image = %@", controller.image);
 }
 
 #pragma mark - Acrions
@@ -111,7 +115,7 @@
     }
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-    NSEntityDescription *entity = [NSEntityDescription entityForName:@"TSProduct" inManagedObjectContext:self.managedObjectContext];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"TSObject" inManagedObjectContext:self.managedObjectContext];
     [fetchRequest setEntity:entity];
     NSSortDescriptor *sortDescriptorData = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
     [fetchRequest setSortDescriptors:@[sortDescriptorData]];
